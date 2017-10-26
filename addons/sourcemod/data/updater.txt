@@ -1,0 +1,21 @@
+"Updater"
+{
+	"Information"
+	{
+		"Version"
+		{
+			"Latest"	"4.1.5"
+		}
+		
+		"Notes"	"More info @ http://forums.alliedmods.net/showthread.php?t=79904"
+		"Notes"	"Check the forums for change notes..."
+	}
+	
+	"Files"
+	{
+		"Plugin"	"Path_SM/plugins/afk_manager4.smx"
+		"Plugin"	"Path_SM/translations/afk_manager.phrases.txt"
+
+		"Source"	"Path_SM/scripting/afk_manager4.sp"
+	}
+}

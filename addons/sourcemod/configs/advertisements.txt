@@ -1,0 +1,63 @@
+// Advertisements 2.0
+// by Tsunami
+//
+// Types
+// -----
+// center: Center message
+// chat: Chat message
+// hint: Hint message
+// menu: Menu message
+// top: Top message
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+"Advertisements"
+{
+    "1"
+    {
+        "chat"		"{green} donate with !donate 10 for VIP (Skins, Tags and More!"
+    }
+
+    "2"
+    {
+        "chat"		"{green} Join Our Discord: {Blue} https://discord.gg/Kam6KCH"
+    }
+
+     "3"
+    {
+    	"chat"		"{green} Abusing /calladmin will result in SEVERE Penalties!!"
+    }
+
+    "4"
+    {
+    	"chat"		"{green} Visit our Forum: {Blue} http://chillgamers.tk"
+    }
+    "5"
+    {
+    	"chat" 	    "{GREEN} Wanna suggest maps? Other Suggestions? http://chillgamers.tk"
+    }
+    "6"
+    {
+
+    	"chat"		"{GREEN} Mod Applications are Open! Apply at http://chillgamers.tk"
+    }
+    "7"
+    {
+    	"chat"		"{GREEN} Surf Server: 108.61.104.41"
+    }
+
+    "8"
+    {
+    	"chat"		"{GREEN} Comp Server: 108.61.104.32"
+    }
+
+    "9"
+    {
+    	"chat"		"{green} Abusing /calladmin will result in SEVERE Penalties!!"
+    }
+}
+

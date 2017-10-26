@@ -1,0 +1,116 @@
+mapchangecfgfile server.cfg
+echo Server.cfg has been run
+hostname "[CG] {Maintanence} Retakes |128TICK|GLOVES|WS|Knife|Store|[ChillGamers.tk]"
+rcon_password "popcorn92"
+sv_password "0000"
+net_maxfilesize 64
+sv_tags Retake, retakes. chill, gamers, Chill, ch, chil,  !gloves, !ws, !knife, ws, knife, gloves, store, shop, !shop, stats, AWP, Rifle, trappa, trapa, troopa, trap, tra, tr,
+sv_pure 0
+sv_allowupload 0
+sv_allowdownload 1
+sv_full_alltalk 1
+sv_region 0
+sv_lan 0
+sm_cvar sv_disable_motd 0
+
+//GoTV
+tv_enable 1
+tv_autorecord 0
+
+//GameTracker
+host_name_store 1
+host_info_show 2
+host_players_show 2
+
+sv_max_queries_sec_global 10
+sv_max_queries_sec 5
+sv_max_queries_window 10
+sm_immunity_mode 2
+
+//Disable Votes
+sv_allow_votes 0
+sm_cvar sv_allow_votes 0
+sm_cvar sv_vote_issue_changelevel_allowed "0"
+sm_cvar sv_vote_issue_kick_allowed "0"
+sm_cvar sv_vote_issue_nextlevel_allowextend "0"
+sm_cvar sv_vote_issue_nextlevel_choicesmode "0"
+sm_cvar sv_vote_issue_restart_game_allowed "0"
+sm_cvar sv_vote_issue_scramble_teams_allowed "0"
+sm_cvar sv_vote_issue_surrrender_allowed "0"
+sm_cvar sv_vote_issue_swap_teams_allowed "0"
+
+//Plugins
+
+sm_weaponpaints_saytimer "-1" // Time in seconds for block that show the plugin commands in chat when someone type a command. -1 = never show the commands in chat
+
+sm_weaponpaints_roundtimer "-1.0" // Time in seconds roundstart for can use the commands for change the paints. -1.0 = always can use the command
+
+sm_weaponpaints_rmenu "0" // Re-open the menu when you select a option. 1 = enabled, 0 = disabled.
+
+sm_weaponpaints_onlyadmin "0" // This feature is only for admins. 1 = enabled, 0 = disabled. (Use the value 1 and try to keep this plugin secret for the normal users because they can report it)
+
+//Weapon Allocator
+sm_retakes_weapon_pistolrounds 5
+sm_retakes_weapon_gunrounds 5
+sm_retakes_weapon_mimic_competitive_pistol_rounds 1
+sm_retakes_weapon_primary_enabled 1
+sm_retakes_weapon_nades_enabled 1
+sm_retakes_weapon_allow_nades_on_pistol_rounds 1
+sm_retakes_weapon_nades_hegrenade_ct_max 2
+sm_retakes_weapon_nades_hegrenade_t_max 2
+sm_retakes_weapon_nades_flashbang_ct_max 2
+sm_retakes_weapon_nades_flashbang_t_max 2
+sm_retakes_weapon_nades_smokegrenade_ct_max 3
+sm_retakes_weapon_nades_smokegrenade_t_max 3
+sm_retakes_weapon_nades_molotov_ct_max 1
+sm_retakes_weapon_nades_molotov_t_max 1
+sm_retakes_weapon_helmet_enabled 1
+sm_retakes_weapon_kevlar_enabled 1
+sm_retakes_weapon_awp_team_max 2
+sm_retakes_weapon_deagle_enabled 1
+sm_retakes_weapon_r8_enabled 0
+sm_retakes_weapon_cz_enabled 1
+sm_retakes_weapon_tec9_fiveseven_enabled 0
+sm_retakes_kevlar_probability_on_competitive_pistol_rounds 10
+sm_retakes_defusekit_probability_on_competitive_pistol_rounds 10
+
+//Too Late to Ban
+
+tltb_check_reason 1 //Only store a player informations if he disconnected himself, values: <0|1> (Default 0)
+
+tltb_stored_players 5
+tltb_players_order 1
+tltb_use_ban_reason 1
+tltb_use_admin_menu 1
+
+//AFK Manager
+sm_afk_enable 1
+sm_afk_autoupdate 1
+sm_afk_prefix_color 1 //Should the AFK Manager use color for the prefix tag?
+sm_afk_kick_min_players 7
+sm_afk_kick_players 2 // Should the AFK Manager kick AFK clients? [0 = DISABLED, 1 = KICK ALL, 2 = ALL EXCEPT SPECTATORS, 3 = SPECTATORS ONLY]
+sm_afk_kick_announce 1 // Should the AFK Manager announce AFK kicks to the server? [1 = EVERYONE, 2 = ADMINS ONLY,]
+sm_afk_kick_time 60 // Time in seconds (total) client must be AFK before being kicked. [0 = DISABLED, DEFAULT: 120.0 seconds]
+sm_afk_kick_warn_time 45 // Time in seconds remaining, player should be warned before being kicked for AFK. [DEFAULT: 30.0 seconds]
+sm_afk_spawn_time 20 //Time in seconds (total) that player should have moved from their spawn position. [0 = DISABLED, DEFAULT: 20.0 seconds]
+sm_afk_spawn_warn_time 15 // Time in seconds remaining, player should be warned for being AFK in spawn. [DEFAULT: 15.0 seconds]
+sm_afk_exclude_dead 1
+
+// Webshortcuts
+sm_webshortcutscsgo_url "http://chillgamers.tk/csgo/webshortcuts.php"
+
+// AdminWatch
+sm_adminwatch_enabled "1"
+sm_adminwatch_logging "1"
+sm_adminwatch_adminflag "1" // 1 - All Admins, FLAGS = Flags to use such as "z" being root
+sm_adminwatch_precision "1" // 0 - Store time in seconds, 1 - Store time in minutes
+
+// Reserved Slots
+sm_brsc_enabled 1
+sm_brsc_type 1 //Who gets kicked out: 1 - Highest ping player, 2 - Longest connection time player, 3 - Random player
+sm_brsc_reason "Kicked to make room for an admin. Join Back!" //Reason used when kicking players
+
+
+
+
+
