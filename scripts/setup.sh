@@ -25,7 +25,7 @@ done
 # sourcemod
 echo -e "${GREEN}Downloading & Installing Sourcemod...${NC}" && sleep 2
 url=$(curl -s https://sm.alliedmods.net/smdrop/1.8/sourcemod-latest-linux)
-wget "https://sm.alliedmods.net/smdrop/1.8/$url"
+wget -0 $server_dir/maps.tar.bz2 "https://sm.alliedmods.net/smdrop/1.8/$url"
 tar -xvzf "${url##*/}" -C $server_dir
 
 echo -e "${GREEN}Copying Over Pre-Configured SourceMod Config & Plugins...${NC}" && sleep 2
